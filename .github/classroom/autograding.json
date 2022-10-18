@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Collatz Conjecture Test",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest collatz_conjecture_test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
